@@ -32,7 +32,7 @@ public class ex4lista2while {
 			if (opcaoSexo == 3 && opcao2 == 1) {
 				outrosCalmos++;
 			}
-			if (idade >= 40 && opcao2 == 2) {
+			if (idade > 40 && opcao2 == 2) {
 				pessoasNervosas40++;
 			}
 			if (idade < 18 && opcao2 == 1) {
