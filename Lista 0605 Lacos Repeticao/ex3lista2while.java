@@ -13,13 +13,15 @@ public class ex3lista2while {
 		idade = leia.nextInt();
 		
 		while (idade != -99) {
-			System.out.println("Insira a idade: ");
-			idade = leia.nextInt();
+			
 			if (idade < 21) {
 				total21++;
 			} else if(idade > 50) {
 				total50++;
 			}
+			
+			System.out.println("Insira a idade: ");
+			idade = leia.nextInt();
 		}
 		
 		System.out.println("Quantidade de pessoas com menos de 21 anos: " + total21);
